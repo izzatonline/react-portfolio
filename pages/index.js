@@ -74,7 +74,7 @@ export default function Home() {
                     </nav>
                     <div className="text-center p-2">
                         <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
-                            Hi, I'm Izzat Afifi!
+                            Hi, I&apos;m Izzat Afifi!
                         </h2>
                         <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
                             Full Stack Developer
@@ -102,7 +102,7 @@ export default function Home() {
                     </div>
                     <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 my-10 overflow-hidden md:h-96 md:w-96">
                         {/* <Image src={deved} layout="fill" objectFit="cover" /> */}
-                        <Image src={profilepic} />
+                        <Image src={profilepic} alt="/" />
                     </div>
                 </section>
 
@@ -136,7 +136,12 @@ export default function Home() {
                     </div>
                     <div className="lg:flex gap-10">
                         <div className="text-center shadow-lg p-2 rounded-xl my-10 dark:bg-white">
-                            <Image src={design} width={100} height={100} />
+                            <Image
+                                src={design}
+                                width={100}
+                                height={100}
+                                alt="/"
+                            />
                             <h3 className="text-lg font-medium pt-8 pb-2">
                                 HTML
                             </h3>
@@ -155,7 +160,12 @@ export default function Home() {
                             <p className="text-gray-800 py-1">Figma</p>
                         </div>
                         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                            <Image src={consulting} width={100} height={100} />
+                            <Image
+                                src={consulting}
+                                width={100}
+                                height={100}
+                                alt="/"
+                            />
                             <h3 className="text-lg font-medium pt-8 pb-2">
                                 Beautiful Designs
                             </h3>
@@ -174,7 +184,12 @@ export default function Home() {
                             <p className="text-gray-800 py-1">Figma</p>
                         </div>
                         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
-                            <Image src={code} width={100} height={100} />
+                            <Image
+                                src={code}
+                                width={100}
+                                height={100}
+                                alt="/"
+                            />
                             <h3 className="text-lg font-medium pt-8 pb-2">
                                 Beautiful Designs
                             </h3>
@@ -223,6 +238,7 @@ export default function Home() {
                                 width={"100%"}
                                 height={"100%"}
                                 layout="responsive"
+                                alt="/"
                             />
                         </div>
                         <div className="basis-1/4 flex-1">
@@ -232,6 +248,7 @@ export default function Home() {
                                 width={"100%"}
                                 height={"100%"}
                                 layout="responsive"
+                                alt="/"
                             />
                         </div>
                         <div className="basis-1/4 flex-1">
@@ -241,6 +258,7 @@ export default function Home() {
                                 width={"100%"}
                                 height={"100%"}
                                 layout="responsive"
+                                alt="/"
                             />
                         </div>
                         <div className="basis-1/4 flex-1">
@@ -250,6 +268,7 @@ export default function Home() {
                                 width={"100%"}
                                 height={"100%"}
                                 layout="responsive"
+                                alt="/"
                             />
                         </div>
                         <div className="basis-1/4 flex-1">
@@ -259,6 +278,7 @@ export default function Home() {
                                 width={"100%"}
                                 height={"100%"}
                                 layout="responsive"
+                                alt="/"
                             />
                         </div>
                         <div className="basis-1/4 flex-1">
@@ -268,6 +288,7 @@ export default function Home() {
                                 width={"100%"}
                                 height={"100%"}
                                 layout="responsive"
+                                alt="/"
                             />
                         </div>
                     </div>
